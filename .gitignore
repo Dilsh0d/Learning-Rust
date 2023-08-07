@@ -1,6 +1,5 @@
 /target
 
-/.idea/*
 *.pdb
 *.exe
 *.iml
