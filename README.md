@@ -4,8 +4,8 @@ The Rust Programming Language
 by Steve Klabnik and Carol Nichols, with contributions from the Rust Community
 
 https://doc.rust-lang.org/stable/book/
-
-1. Getting Started
-2. Common Programming Concepts
-3. Understanding Ownership
-4. Using Structs to Structure Related Data
+## Introduction
+1. [Getting Started](#getting-started)
+2. [Common Programming Concepts](#common-programming-concepts)
+3. [Understanding Ownership](#understanding-ownership)
+4. [Using Structs to Structure Related Data](#using-structs-to-structure-related-data)
