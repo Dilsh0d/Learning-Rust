@@ -38,6 +38,14 @@ To acquire the build tools, you’ll need to install Visual Studio 2022. When as
      
 The rest of this book uses commands that work in both cmd.exe and PowerShell. If there are specific differences, we’ll explain which to use.
 
+#### Troubleshooting
+
+To check whether you have Rust installed correctly, open a shell and enter this line:
+
+```$ rustc --version```
+
+You should see the version number, commit hash, and commit date for the latest stable version that has been released, in the following format:
+
 ## Common Programming Concepts
 
 ## Understanding Ownership
