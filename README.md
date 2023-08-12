@@ -125,6 +125,19 @@ Now let’s look at what’s different when we build and run the “Hello, world
    Compiling hello_cargo v0.1.0 (file:///projects/hello_cargo)
     Finished dev [unoptimized + debuginfo] target(s) in 2.85 secs`
 
+`$ cargo run
+    Finished dev [unoptimized + debuginfo] target(s) in 0.0 secs
+     Running `target/debug/hello_cargo`
+Hello, world!`
+
+Let’s recap what we’ve learned so far about Cargo:
+
+We can create a project using cargo new.
+We can build a project using cargo build.
+We can build and run a project in one step using cargo run.
+We can build a project without producing a binary to check for errors using cargo check.
+Instead of saving the result of the build in the same directory as our code, Cargo stores it in the target/debug directory.
+
 ## Common Programming Concepts
 
 ## Understanding Ownership
