@@ -88,7 +88,37 @@ On Windows, enter the command .\main.exe instead of ./main:
 > rustc main.rs <br>
 > .\main.exe <br>
 
-`Hello, world!` 
+`Hello, world!`
+
+#### Hello, Cargo!
+Cargo is Rust’s build system and package manager. Most Rustaceans use this tool to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries. (We call the libraries that your code needs dependencies.)
+Cargo is installed by entering the following in your terminal:
+
+`$ cargo --version`
+
+##### Creating a Project with Cargo
+
+Let’s create a new project using Cargo and look at how it differs from our original “Hello, world!” project. Navigate back to your projects directory (or wherever you decided to store your code). Then, on any operating system, run the following:
+
+> $ cargo new hello_cargo <br>
+> $ cd hello_cargo <br>
+
+Go into the hello_cargo directory and list the files. You’ll see that Cargo has generated two files and one directory for us: a Cargo.toml file and a src directory with a main.rs file inside.
+
+Open Cargo.toml in your text editor of choice. It should look similar to the code in Listing 1-2.
+
+Filename: Cargo.toml
+```rust
+[package]
+name = "hello_cargo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+```
+
 ## Common Programming Concepts
 
 ## Understanding Ownership
