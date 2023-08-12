@@ -64,6 +64,7 @@ For Windows CMD, enter this:
 > cd /d "%USERPROFILE%\projects" <br>
 > mkdir hello_world <br>
 > cd hello_world <br>
+
 ##### Writing and Running a Rust Program
 Now open the main.rs file you just created and enter the code in Listing 1-1.
 
@@ -79,12 +80,14 @@ Save the file and go back to your terminal window in the ~/projects/hello_world 
 
 > $ rustc main.rs <br>
 > $ ./main <br>
+
 `Hello, world!`
 
 On Windows, enter the command .\main.exe instead of ./main:
 
 > rustc main.rs <br>
 > .\main.exe <br>
+
 `Hello, world!` 
 ## Common Programming Concepts
 
