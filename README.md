@@ -60,11 +60,32 @@ For Linux, macOS, and PowerShell on Windows, enter this:
 
 For Windows CMD, enter this:
 
-> mkdir "%USERPROFILE%\projects"
-> cd /d "%USERPROFILE%\projects"
-> mkdir hello_world
-> cd hello_world
+> mkdir "%USERPROFILE%\projects" <br>
+> cd /d "%USERPROFILE%\projects" <br>
+> mkdir hello_world <br>
+> cd hello_world <br>
+##### Writing and Running a Rust Program
+Now open the main.rs file you just created and enter the code in Listing 1-1.
 
+Filename: main.rs
+```rust
+fn main() {
+    println!("Hello, world!");
+}
+```
+Listing 1-1: A program that prints Hello, world!
+
+Save the file and go back to your terminal window in the ~/projects/hello_world directory. On Linux or macOS, enter the following commands to compile and run the file:
+
+> $ rustc main.rs <br>
+> $ ./main <br>
+`Hello, world!`
+
+On Windows, enter the command .\main.exe instead of ./main:
+
+> rustc main.rs <br>
+> .\main.exe <br>
+`Hello, world!` 
 ## Common Programming Concepts
 
 ## Understanding Ownership
