@@ -46,6 +46,25 @@ To check whether you have Rust installed correctly, open a shell and enter this 
 
 You should see the version number, commit hash, and commit date for the latest stable version that has been released, in the following format:
 
+#### Hello world!
+Now that you’ve installed Rust, it’s time to write your first Rust program. It’s traditional when learning a new language to write a little program that prints the text Hello, world! to the screen, so we’ll do the same here!
+
+##### Creating a Project Directory
+
+For Linux, macOS, and PowerShell on Windows, enter this:
+
+> $ mkdir ~/projects
+> $ cd ~/projects
+> $ mkdir hello_world
+> $ cd hello_world
+
+For Windows CMD, enter this:
+
+> mkdir "%USERPROFILE%\projects"
+> cd /d "%USERPROFILE%\projects"
+> mkdir hello_world
+> cd hello_world
+
 ## Common Programming Concepts
 
 ## Understanding Ownership
