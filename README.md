@@ -53,10 +53,10 @@ Now that you’ve installed Rust, it’s time to write your first Rust program. 
 
 For Linux, macOS, and PowerShell on Windows, enter this:
 
-> $ mkdir ~/projects
-> $ cd ~/projects
-> $ mkdir hello_world
-> $ cd hello_world
+> $ mkdir ~/projects <br>
+> $ cd ~/projects <br>
+> $ mkdir hello_world <br>
+> $ cd hello_world <br>
 
 For Windows CMD, enter this:
 
