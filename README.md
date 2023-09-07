@@ -14,8 +14,8 @@ https://doc.rust-lang.org/stable/book/
 4. [Using Structs to Structure Related Data](chapters/04_structs_related_data.md)
 
 
-## Common Programming Concepts
 
-## Understanding Ownership
 
-## Using Structs to Structure Related Data
+
+
+
