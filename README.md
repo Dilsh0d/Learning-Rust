@@ -11,12 +11,8 @@ https://doc.rust-lang.org/stable/book/
    3. [Creating a Project with Cargo](ch01/01_gettting_started.md#creating-a-project-with-cargo)
 2. [Programming a Guessing Game](ch02/02_prog_guessing_game.md)
 3. [Common Programming Concepts](ch03/03_common_prog_concept.md)
-3. [Understanding Ownership](docs/04_understanding_ownership.md)
-4. [Using Structs to Structure Related Data](d/04_structs_related_data.md)
-
-
-
-
+4. [Understanding Ownership](ch04/04_structs_related_data.md)
+5. [Using Structs to Structure Related Data](ch05/05_understanding_ownership.md)
 
 
 
